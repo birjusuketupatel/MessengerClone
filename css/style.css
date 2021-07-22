@@ -1,0 +1,189 @@
+body{
+  font-family: sans-serif;
+}
+
+/* LOGIN */
+h1{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.logo{
+  width: 80%;
+  margin-left: 5%;
+  margin-bottom: 2rem;
+}
+
+.fail-message{
+  color: red;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.login-container{
+  display: inline-block;
+  padding: 2rem;
+  width: 20%;
+  margin-left: 40%;
+  background-color: #C8AB7C;
+}
+
+.text-input{
+  height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.login-container a{
+  text-decoration: none;
+  color: #EFEFEF;
+}
+
+#login{
+  margin-top: 1rem;
+  width: 75px;
+  height: 1.75rem;
+}
+
+/* MESSANGER */
+.console{
+  display: inline-block;
+  width: 90%;
+  margin-left: 5%;
+  background-color: #C8AB7C;
+  padding: 1rem;
+}
+
+.messages{
+  border: 1px solid black;
+  background-color: white;
+  height: 60%;
+  overflow-y: scroll;
+  padding: 0.5rem;
+}
+
+.right{
+  float: right;
+}
+
+.account-bar{
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+
+.currUser{
+  font-size: 1.5rem;
+}
+
+.logout{
+  background-color: #926E51;
+  font-size: 1.125rem;
+  padding: 0.75rem;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.logout:active{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.logout:visited{
+  color: black;
+  text-decoration: none;
+}
+
+table{
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+.sender{
+  padding: 0.5rem;
+  width: 10%;
+  text-align: center;
+}
+
+.text{
+  padding: 0.5rem;
+}
+
+.timestamp{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  vertical-align: top;
+  text-align: right;
+  width: 7.5%;
+}
+
+form{
+  margin: 0;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#send{
+  background-color: #926E51;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 768px){
+  /* LOGIN */
+  .login-container{
+    display: inline-block;
+    padding: 1rem;
+    width: 80%;
+    margin-left: calc(10% - 1rem);
+    background-color: #C8AB7C;
+  }
+
+  h1{
+    margin-bottom: 1rem;
+  }
+
+  .logo{
+    width: 60%;
+    margin-left: 17%;
+    margin-bottom: 1rem;
+  }
+
+  .text-input{
+    height: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #login{
+    margin-top: 0.5rem;
+    height: 1.75rem;
+  }
+
+  /* MESSANGER */
+  .console{
+    width: 80%;
+    margin-left: calc(10% - 1rem);
+    background-color: #C8AB7C;
+  }
+
+  .right{
+    float: right;
+  }
+
+  .timestamp{
+    display: none;
+  }
+}
